@@ -676,14 +676,6 @@ int main()
         while (!game.isgameOver())
         {
 
-            if (game.isDev_mode())
-            {
-                gotoxy(WIDTH * 2 + 5, 6);
-                setColor(6);
-                gotoxy(WIDTH * 2 + 5, 7);
-                cout << "PRESS E to swtich to dev-menu";
-                setColor(7);
-            }
 
             data = readdata();
             gotoxy(WIDTH / 2 - 5, 1);
